@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(../images/flat-lay-desk-concept-with-copy-space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+}
+.container .logo {
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+.container .logo p {
+  color: #ffffff;
+  font-size: 25.5px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.container .logo img {
+  width: 45px;
+  height: 45px;
+}
+.container .main {
+  background-color: rgba(111, 126, 195, 0.3);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 27%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 30px;
+  border-radius: 5px;
+  width: 350px;
+}
+.container .main .form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.container .main .form .ptag {
+  color: #fcfff9;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  margin: auto;
+  width: max-content;
+  cursor: pointer;
+  text-decoration: none;
+}
+.container .main .form .atag {
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  color: #012d85;
+  font-weight: 550;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  background-color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+.container .main .form label {
+  color: #012d85;
+  font-size: 15px;
+  font-weight: 550;
+  letter-spacing: 0.5px;
+  padding-top: 15px;
+}
+.container .main .form input {
+  border: 0;
+  background: inherit;
+  border-bottom: 2px solid #012d85;
+  outline: 0;
+  padding: 5px 5px 5px 10px;
+  color: #012d85;
+  font-size: 16px;
+}
+
+@media (max-width: 350px) {
+  body {
+    background-image: url(../images/flat-lay-desk-concept-with-copy-space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    max-width: 300px;
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .container .main {
+    width: 300px;
+  }
+}
+
+/*# sourceMappingURL=registration.css.map */

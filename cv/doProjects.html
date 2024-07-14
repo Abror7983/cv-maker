@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="./assets/css/doProjects.css">
+</head>
+<body>
+          <div class="navbar">
+               <div class="container">
+                <div class="logo">
+                    <img src="./assets/images/istockphoto-1300845620-612x612.jpg" alt="">
+                    <p class="doUserName">User</p>
+                </div>
+                <div class="createProject">
+                    <a href="./projects.html">My Projects</a>
+                </div>
+               </div>
+         </div>
+         <div class="container">
+         <div class="main">
+           <form action="">
+               <label for="userImage">Img URL</label>
+               <input type="url" id="userURL">
+               <label for="username">Name</label>
+               <input type="text" id="username">
+               <label for="userjob">Job</label>
+               <input type="text" id="userjob">
+               <label for="userbirth">Date of Birth</label>
+               <input type="date" id="userDate">
+               <label for="about">Description</label>
+               <textarea name="" id="about" style="min-height: 150px; border: 1px solid #012d85; border-radius: 5px; padding: 15px; font-size: 19px; color: #012d85; line-height: 35px; letter-spacing: 1px;" >I am: </textarea>
+               <a href="#" onclick="userData()" class="atag">Save</a>
+               <p>I have an account</p>
+           </form>
+           <div class="all">
+               <div class="usertext">
+                    <img src="./assets/images/HXGBF.png" class="USERIMAGE">
+                    <h2 class="NAME">User</h2>
+               </div>
+               <p class="job">Job: <span class="JOB"></span></p>
+               <p class="job">Date of Birth: <span class="DATE"></span></p>
+               <p class="job">About Me: <span class="aboutMe"></span></p>
+          </div>
+          </div>
+     </div>
+
+
+
+
+     <script src="./doProjects.js"></script>
+</body>
+</html>

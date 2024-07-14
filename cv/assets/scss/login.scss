@@ -1,0 +1,103 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+}
+body{
+     background-image: url(../images/flat-lay-desk-concept-with-copy-space.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: 100vh;
+}
+.container{
+     max-width: 1440px;
+     width: 100%;
+     margin: auto;
+     align-items: center;
+     .logo{
+          display: flex;
+          align-items: center;
+          height: 70px;
+          p{
+               color:#ffffff;
+               font-size: 25.5px;
+               font-weight: 600;
+               padding-left: 10px;
+          }
+          img{
+               width: 45px;
+               height: 45px;
+          }
+     }
+     .main{
+          background-color: rgba($color: #6f7ec3, $alpha: 0.3);
+          backdrop-filter: blur(10px);
+          position: absolute;
+          top: 27%;
+          transform: translateY(-50%);
+          left: 50%;
+          transform: translateX(-50%);
+          padding: 15px 30px;
+          border-radius: 5px;
+          width: 350px;
+          .form{
+               display: flex;
+               flex-direction: column;
+               gap: 8px;
+               .ptag{
+                    color: #fcfff9;
+                    letter-spacing: 0.5px;
+                    line-height: 20px;
+                    margin: auto;
+                    width: max-content;
+                    cursor: pointer;
+                    text-align: center;
+                    align-items: center;
+                    text-decoration: none;
+               }
+               .atag{
+                    padding: 10px 20px;
+                    border: 0;
+                    outline: 0;
+                    border-radius: 4px;
+                    color:#012d85;
+                    font-weight: 550;
+                    cursor: pointer;
+                    letter-spacing: 0.5px;
+                    background-color: #fff;
+                    text-decoration: none;
+                    text-align: center;
+               }
+               label{
+                    color: #012d85;
+                    font-size: 15px;
+                    font-weight: 550;
+                    letter-spacing: 0.5px;
+                    padding-top: 15px;
+               }
+               input{
+                    border: 0;
+                    background: inherit;
+                    border-bottom: 2px solid  #012d85;
+                    outline: 0;
+                    padding: 5px 5px 5px 10px;
+                    color: #012d85;
+                    font-size: 16px;
+               }
+          }
+     }
+}
+
+@media(max-width:350px){
+     .container{
+          max-width: 300px;
+          width: 100%;
+          padding: 0px 10px;
+          .main{
+               width: 300px;
+          }
+     }
+}
+
